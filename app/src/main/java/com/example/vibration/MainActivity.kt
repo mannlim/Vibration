@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             vibrator.vibrate(effect)
         }
 
+
         val btn2 = findViewById<Button>(R.id.button2)
         btn2.setOnClickListener {
             val vibrator = getSystemService(
